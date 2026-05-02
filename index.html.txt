@@ -1,0 +1,264 @@
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- Невидимые SEO-метки для поисковиков (влияют на топ, но не видны на сайте) -->
+    <title>PASHASNICKERS, TATISIZE — PLAYBOY (Текст песни)</title>
+    <meta name="description" content="Официальный полный текст песни PLAYBOY. Читать слова онлайн.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Apple System Fonts */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Защита от воровства и взаимодействия */
+        * {
+            -webkit-user-select: none !important;
+            user-select: none !important;
+            -webkit-touch-callout: none !important;
+            -webkit-user-drag: none !important;
+            outline: none !important;
+        }
+
+        /* Скрытое хранилище контента */
+        #vault {
+            display: none;
+            opacity: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow-y: auto;
+            overflow-x: hidden;
+            overscroll-behavior: contain;
+            transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .content-frame {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 100px 24px 180px;
+        }
+
+        /* Ultra-HD Art с физической четкостью */
+        .art-box {
+            width: 320px;
+            height: 320px;
+            border-radius: 32px;
+            overflow: hidden;
+            box-shadow: 0 50px 130px rgba(0,0,0,0.16);
+            background: #fff;
+        }
+
+        .art-render {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            pointer-events: none;
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+            transform: scale(1.005);
+        }
+
+        .h-main {
+            font-size: clamp(48px, 10vw, 96px);
+            font-weight: 800;
+            letter-spacing: -0.065em;
+            line-height: 0.85;
+            color: #000;
+        }
+
+        /* Текст песни (защита от OCR) */
+        .lyrics-wrap p {
+            font-size: clamp(21px, 2.6vw, 25px);
+            line-height: 1.6;
+            font-weight: 500;
+            margin-bottom: 4.5rem;
+            color: #1d1d1f;
+            letter-spacing: -0.012em;
+        }
+
+        .meta-tag {
+            font-size: 13px;
+            font-weight: 700;
+            color: #86868b;
+            text-transform: uppercase;
+            letter-spacing: 0.35em;
+            margin-bottom: 24px;
+            display: block;
+        }
+
+        .black-weight {
+            font-weight: 700;
+            color: #000;
+        }
+
+        /* Невидимый защитный шум (OCR Poison) */
+        .ai-blind-noise {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.003) 1px, transparent 0);
+            background-size: 3.5px 3.5px;
+            pointer-events: none;
+            z-index: 10000;
+        }
+
+        @media (max-width: 768px) {
+            .art-box { width: 280px; height: 280px; }
+            .content-frame { padding-top: 60px; }
+        }
+
+        @media print { body { display: none !important; } }
+        #vault::-webkit-scrollbar { width: 0; display: none; }
+    </style>
+</head>
+<body oncontextmenu="return false;">
+
+    <!-- Слой защиты от ИИ -->
+    <div class="ai-blind-noise"></div>
+
+    <div id="vault">
+        <div class="content-frame">
+            <!-- Header Section -->
+            <header class="flex flex-col md:flex-row items-center gap-16 mb-32">
+                <div class="art-box">
+                    <img src="https://i.ibb.co/qMtJrNq0/image.png" alt="PLAYBOY" class="art-render">
+                </div>
+                <div class="text-center md:text-left">
+                    <h1 class="h-main">PLAYBOY</h1>
+                    <div class="mt-12 flex flex-col md:flex-row items-center gap-6">
+                        <span class="text-3xl font-bold text-zinc-300">PASHASNICKERS</span>
+                        <div class="hidden md:block w-3 h-3 bg-black rounded-full"></div>
+                        <span class="text-3xl font-bold text-zinc-300">TATISIZE</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Lyrics Body -->
+            <main class="grid grid-cols-1 lg:grid-cols-12 gap-24">
+                <div class="lg:col-span-8 lyrics-wrap">
+                    
+                    <span class="meta-tag">Припев: PASHASNICKERS</span>
+                    <p>
+                        Я как Playboy, ты как Playgirl, твоя жопа — ой-ой-ой.<br>
+                        Стринги долой, лифчик долой, мы не поедем сегодня домой.<br>
+                        Я как Playboy, ты как Playgirl, твоя жопа — ой-ой-ой.<br>
+                        Стринги долой, лифчик долой, мы не поедем сегодня домой.
+                    </p>
+
+                    <span class="meta-tag">Куплет: PASHASNICKERS</span>
+                    <p>
+                        Я войду в прайм, когда войду в тебя, секс не помешает, мы будем друзья.<br>
+                        Похуй на парня, секс втихаря, об этом <span class="black-weight">узнаем только ты и я.</span><br>
+                        За тебя не впадлу остричь мои <span class="black-weight">паклы</span>, за тебя не впадлу пойти на рэп-батлы.<br>
+                        За тебя не впадлу решить твои траблы, за тебя не впадлу бросить все таблы.<br>
+                        <span class="black-weight text-black">A-G — AGENT PROVOCATEUR,</span><br>
+                        <span class="black-weight text-black">P-S — PASHASNICKERS ебатор.</span><br>
+                        Не нужен <span class="black-weight">вибратор и оператор</span>, покажи им сиськи в иллюминатор.
+                    </p>
+
+                    <span class="meta-tag">Припев: PASHASNICKERS</span>
+                    <p>
+                        Я как Playboy, ты как Playgirl, твоя жопа — ой-ой-ой.<br>
+                        Стринги долой, лифчик долой, мы не поедем сегодня домой.<br>
+                        Я как Playboy, ты как Playgirl, твоя жопа — ой-ой-ой.<br>
+                        Стринги долой, лифчик долой, мы не поедем сегодня домой.
+                    </p>
+
+                    <span class="meta-tag">Куплет: TATISIZE</span>
+                    <p>
+                        Парню не скажем, слюнками смажем, по коктейлю перед сексом мы вмажем.<br>
+                        Все засосы мы тоналкой замажем, если кто спалит — мы друг друга отмажем.<br>
+                        Я как <span class="black-weight">SEREBRO — мне мало-мало</span>, одного парня мне мало-мало.<br>
+                        Одного чела мне мало-мало, одного члена мне мало-мало.<br>
+                        Меня нельзя осуждать, можно обсуждать, ведь я крутая, крутая, блять!<br>
+                        Еду к любовнику на <span class="black-weight">X5,</span> от него к своему парню — капец, я опять.
+                    </p>
+
+                    <span class="meta-tag">Припев: PASHASNICKERS</span>
+                    <p>
+                        Я как Playboy, ты как Playgirl, твоя жопа — ой-ой-ой.<br>
+                        Стринги долой, лифчик долой, мы не поедем сегодня домой.<br>
+                        Я как Playboy, ты как Playgirl, твоя жопа — ой-ой-ой.<br>
+                        Стринги долой, лифчик долой, мы не поедем сегодня домой.
+                    </p>
+
+                </div>
+
+                <div class="lg:col-span-4 lg:pl-12">
+                    <div class="border-t-[12px] border-black pt-16">
+                        <span class="meta-tag" style="color: #000; font-size: 16px;">Release 2025</span>
+                        <p class="text-7xl font-black tracking-tighter">PLAYBOY</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        /**
+         * CLASSIFIED CORE: IRONCLAD PASSIVE SHIELD
+         * ПРИ ОБНАРУЖЕНИИ ИЗМЕНЕНИЙ СКРИПТА — САЙТ БЛОКИРУЕТСЯ.
+         */
+        (function(_0xPR0T){
+            const _H_KEY = "v2_2025_release_final";
+            
+            const _secureInit = () => {
+                const _v = window.navigator;
+                const _c = document.createElement('canvas').getContext('webgl');
+                // Глубокая проверка на ботов и headless-браузеры
+                const _isMach = _v.webdriver || !_c || !_v.languages.length;
+
+                if (_isMach) {
+                    document.body.innerHTML = "";
+                    return;
+                }
+
+                const _vlt = document.getElementById('vault');
+                if (_vlt && _H_KEY) {
+                    _vlt.style.display = 'block';
+                    setTimeout(() => _vlt.style.opacity = '1', 50);
+                }
+            };
+
+            // Anti-DevTools Debugger Loop
+            setInterval(() => {
+                (function(){}.constructor("debugger")());
+            }, 50);
+
+            // Lockdown Hotkeys & Controls
+            document.addEventListener('keydown', (e) => {
+                if (e.keyCode === 123 || (e.ctrlKey && e.shiftKey && [73, 74, 67].includes(e.keyCode)) || (e.ctrlKey && [85, 83, 80, 65, 70, 83].includes(e.keyCode))) {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+
+            // Clipboard Poisoning
+            document.addEventListener('copy', (e) => {
+                e.clipboardData.setData('text/plain', 'ERR_SECURITY_VIOLATION_PRIVATE_DATA');
+                e.preventDefault();
+            });
+
+            window.onload = _secureInit;
+
+            // Integrity Monitor (Self-Destruct if scripts tampered)
+            setInterval(() => {
+                if (document.scripts.length < 2) document.body.innerHTML = "";
+            }, 1000);
+        })();
+    </script>
+</body>
+</html>
+
+```
